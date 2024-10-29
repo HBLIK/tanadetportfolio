@@ -1,96 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Port.css">
+</head>
+<body>
+
+    <header id="navbar">
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h2>Hello, I'm Tanadet Nuchaikaew</h2>
+            <p>มาจาก KMUTT Faculty of Computer Engineering (CPE38) สร้างเว็ปนี้เพื่อใช้สำหรับการศึกษา</p>
+            <p>และฝึกฝน HTML CSS JavaScript โดยเฉพาะ</p>
+            <section class="main">
+                <img src="IMG1.jpg" alt="ภาพตัวอย่าง">
+            <h1>"Mumu"</h1>
+            <h1>แมวผมน่ารักไหม</h1>
+            </section>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>ผม นายธนเดช หนูชัยแก้ว เป็นนักศึกษาอยู่วิศวกรรมคอมพิวเตอร์ ปีที่ 1 "CPE 38" 
+        โดยประวัติคล่าวๆเป็นนักเรียนสายวิทย์,คณิตจากโรงเรียนหาดใหญ่วิทยาลัย ซึ่งมักจะเข้าแข่งขัน
+        ในสายวิชาการในวิชาคณิตและฟิสิกส์ ซึ่งเคยได้รางวัลอย่าง สอวน. และ สสวท. เป็นต้น</p>
+        <section class="main2">
+            <img src="IMG2.jpg" alt="ภาพตัวอย่าง">
+        <p>ปัจจุบันมีความสนใจในศาสตร์ของเทคโนโลยี เนื่องจากได้ศึกษา และได้คุยกับอาจารย์ของแม่
+        ซึ่งเป็นผู้อยู่ในวงการคอมมานาน ซึ่งมีความรู้เกี่ยวกับด้านสายเทค ทำให้รู้ว่าสายนี้มีอะไรที่น่าศึกษาและน่าสนใจเยอะมาก
+        ได้เจอสิ่งใหม่ๆตลอดเวลา บ้างทีเราอาจเป็นคนสร้างใหม่ๆเองเลยก็ได้จึงได้สนใจสายนี้</p>
+        <section class="main2">
+            <img src="education.png" alt="ภาพตัวอย่าง">
+    </section>
+
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <img src="project1.png">
+                <h3>Allergy warning detection</h3>
+                <p>The sensor can detect the concentration of dust particles 
+                    around it and provide alerts when the environment is unsuitable for allergy sufferers,
+                     helping them avoid symptoms and reduce their medication intake.</p>
+            </div>
+            <div class="project">
+                <img src="project2.png">
+                <h3>Honey verify tester</h3>
+                <p>I am working on a project to create a honey testing device, but due to failed experiments, I am unable to 
+                complete the device because I have exceeded the budget.</p>
+            </div>
+            <div class="project">
+                <img src="unity.png">
+                <h3>Tower defense games Project </h3>
+                <p>devoloping with friends from PSU.(on progress...)</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+    </section>
+    <section id="skills-card" class="skills-card">
+        <div class="card">
+            <img src="html.png">
+            <h3>HTML</h3>
+        </div>
+        <div class="card">
+            <img src="css.png">
+            <h3>CSS</h3>
+        </div>
+        <div class="card">
+            <img src="JS.png">
+            <h3>JavaScript</h3>
+        </div>
+        <div class="card">
+            <img src="Python.png">
+            <h3>Python</h3>
+        </div>
+        <div class="card">
+            <img src="c.png">
+            <h3>C</h3>
+        </div>
+        <div class="card">
+            <img src="tinkercad.png">
+            <h3>Model</h3>
+        </div>
+        <div class="card">
+            <img src="elden_ring.png">
+            <h3>Elden ring player</h3>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <ul>
+            <li><img src="email.png">: tanadetstu@gmail.com</a></li>
+            <li><img src="IG.png">: kawiii_v</a></li>
+            <li><img src="FB.png">: Kawi Nuchaikaew</a></li>
+            <li><img src="line.png">: kavee710</li>
+            <li><img src="phone.png">: 093579****</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tanadet Nuchaikaew. All rights reserved.</p>
+    </footer>
+
+    <script src="Port.js"></script>
+</body>
 </html>
