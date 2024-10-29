@@ -6,7 +6,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 body {
     background-color: #f5f5f7;
@@ -115,7 +115,6 @@ h2 {
 }
 
 
-
 .about p, .skills ul {
     max-width: 600px;
     margin: 0 auto;
@@ -125,7 +124,6 @@ h2 {
 .skills ul {
     list-style: none;
 }
-
 .skills ul li {
     padding: 10px 0;
 }
@@ -138,6 +136,8 @@ h2 {
     padding-bottom: 50px;
     background-color: #f5f5f7;
 }
+
+
 .card {
     background-color: #ffffff;
     border: 1px solid #e0e0e5;
@@ -167,36 +167,33 @@ h2 {
     border-radius: 15px;
 }
 
-
-.contact{
-    margin-top: 50px;
-    margin-left: 100px;
-}
-.contact h1{
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-.contact ul {
-    list-style: none;
-    padding: 0;
-}
-.contact li {
+.contact {
     display: flex;
-    margin: 10px 0;
-    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
 }
-.contact img {
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item .icon {
     width: 24px;
     height: 24px;
     margin-right: 10px;
 }
-
 
 footer {
     background-color: #f5f5f7;
     color: #86868b;
     text-align: center;
     padding: 15px 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
